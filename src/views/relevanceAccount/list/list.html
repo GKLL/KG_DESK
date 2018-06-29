@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0"
+  />
+  <link rel="shortcut icon" href="https://pro-kg-oss.oss-cn-beijing.aliyuncs.com/ico/favicon.ico" type="image/x-icon">
+  <meta name="apple-mobile-web-capable" content="yes">
+  <title>关联账号</title>
+      <link type="text/css" href="https://g.alicdn.com/sd/ncpc/nc.css?t=1517295462152" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/ncpc/nc.js?t=2015052012"></script>
+  <script type='text/javascript'>
+    !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/2.1/gio.js","gio");
+      gio('init', 'a5372fa9e5844884', {});
+    //custom page code begin here
+    //custom page code end here
+    gio('send');
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script type="text/javascript">
+  function loadWb() {
+    window.location.href = 'https://api.weibo.com/oauth2/authorize?client_id=3092770607&redirect_uri=http://kg.btc123.com/dist/views/relevanceAccount/list.html'
+  }
+  function loadWx() {
+    window.location.href = 'https://open.weixin.qq.com/connect/qrconnect?appid=wx1fa983464d64de9e&redirect_uri=http://kg.btc123.com/dist/views/relevanceAccount/list.html&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect'
+  }
+  function reload2() {
+    window.location.reload()
+  }
+  function reload() {
+    window.location.href = 'https://www.kg.com/relevanceAccount/list.html'
+  }
+</script>
+</html>
+<style>
+  html,
+  body,
+  #app {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .el-message--info {
+    display: none !important;
+  }
+</style>

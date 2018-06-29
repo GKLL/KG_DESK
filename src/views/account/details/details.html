@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"> -->
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes”
+  />
+  <link rel="shortcut icon" href="https://pro-kg-oss.oss-cn-beijing.aliyuncs.com/ico/favicon.ico" type="image/x-icon">
+  <link type="text/css" href="https://g.alicdn.com/sd/ncpc/nc.css?t=1517295462152" rel="stylesheet"/>
+  <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/ncpc/nc.js?t=2015052012"></script>
+  <title>个人中心</title>
+  <script type='text/javascript'>
+    !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/2.1/gio.js","gio");
+      gio('init', 'a5372fa9e5844884', {});
+    //custom page code begin here
+    //custom page code end here
+    gio('send');
+  </script>
+  <style type="text/css">
+    body {
+      background: #f4f4f4!important;
+    }
+
+    .routerContainer {
+      padding-top: 11px!important;
+    }
+
+    .el-tabs__item:hover {
+      color: #5e5e5e!important;
+    }
+
+    .el-tabs__item.is-active {
+      color: #5e5e5e!important;
+    }
+
+    .el-tabs__item {
+      color: #bfc4cf!important;
+
+    }
+
+    .el-tabs__active-bar {
+      /*background-color:#bfbfbf!important;*/
+      margin-left: 40px!important;
+    }
+
+    .el-tabs__item {
+      padding-top: 8px!important;
+      height: 54px!important;
+      font-size: 16px!important;
+    }
+
+    .el-tabs--bottom .el-tabs__item:nth-child(2),
+    .el-tabs--top .el-tabs__item:nth-child(2) {
+
+      margin-left: 40px!important;
+    }
+
+    .applyColumn .el-input__inner,
+    .applyColumn .el-textarea__inner {
+      background: #f4f4f4!important;
+      border: 1px solid #a7afbe!important;
+    }
+
+    .edui-default .edui-editor {
+      width: 100%!important;
+      min-height: 600px!important;
+      border: 0px!important;
+      margin-top: 1px!important;
+      z-index: 200!important;
+    }
+
+    .edui-default .edui-editor-breadcrumb,
+    .edui-default .edui-editor-scale .edui-editor-icon {
+      display: none;
+    }
+
+    .edui-default .edui-editor-bottomContainer td {
+      padding-right: 20px;
+    }
+
+    .tailorDialog .el-dialog {
+      width: 50%!important;
+    }
+
+    .tailorDialog .el-dialog__body {
+      height: 300px;
+      min-height: 300px;
+    }
+
+    /*上传封面*/
+
+    .uploadCover {
+      z-index: 1000000!important;
+    }
+
+    .uploadCover .el-upload-list--picture-card .el-upload-list__item-actions,
+    .uploadCover .el-upload-list--picture-card .el-upload-list__item-status-label {
+      display: none!important;
+    }
+
+    .uploadCover .el-upload--picture-card {
+      width: 1px;
+      height: 1px;
+      line-height: 1px;
+      border: 0px;
+      background: #fff;
+      position: absolute;
+      top: 60px;
+      left: 20px;
+    }
+
+    .uploadCover .el-upload-list--picture-card .el-upload-list__item {
+      margin-right: 15px;
+      width: 244px;
+      height: 194px;
+      border: 0px;
+    }
+
+    .uploadCover .el-upload-list--picture-card .el-upload-list__item:first-of-type {
+      margin-top: 30px;
+    }
+
+    /*地区*/
+
+    .distpicker select {
+      background: #f4f4f4!important;
+      border-color: #a7afbe!important;
+    }
+
+    .myColumn .el-form-item__error {
+      left: 30px!important;
+    }
+
+    .myColumn_noLeft .el-form-item__error {
+      left: 0px!important;
+    }
+
+    .myColumn_noLeft .el-form-item__label {
+      text-align: left;
+    }
+
+    .myColumn_noLeft .el-input.is-disabled .el-input__inner {
+      background: #dfe4ed!important;
+    }
+
+
+
+    @media screen and (max-width: 1650px) {
+      .myColumn_noLeft .el-form-item__label {
+        width: 110px;
+      }
+    }
+
+    @media screen and (max-width: 1600px) {
+      .approveModal .el-dialog {
+        width: 48%!important;
+      }
+    }
+
+    @media screen and (max-width: 1350px) {
+      .approveModal .el-dialog {
+        width: 52%!important;
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+      .approveModal .el-dialog {
+        width: 60%!important;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
+      .routerContainer {
+        width: 1170px;
+      }
+      .container {
+        width: 1170px!important;
+        padding: 0px 20px!important;
+      }
+      .routerContainer {
+        padding-top: 90px!important;
+      }
+      .approveModal .el-dialog {
+        width: 55%!important;
+      }
+    }
+
+    /*阅读奖励*/
+
+    /*       .readAward .el-dialog__body{
+    padding:0px 20px 30px 20px;
+}
+@media only screen and (max-width:1800px){
+.readAward .el-dialog{
+    width:50%!important;
+    }
+}
+@media only screen and (max-width:1700px){
+  .readAward .el-dialog{
+      width:45%!important;
+  }
+}
+@media only screen and (max-width:1550px){
+  .readAward .el-dialog{
+      width:40%!important;
+  }
+}
+@media only screen and (max-width:1400px){
+  .readAward .el-dialog{
+      width:35%!important;
+  }
+}
+@media only screen and (max-width:1250px){
+  .readAward .el-dialog{
+      width:30%!important;
+  }
+} */
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <router-view name='a'></router-view>
+    <div class='container flexR routerContainer '>
+      <router-view name='b'></router-view>
+      <router-view></router-view>
+
+    </div>
+    <!-- <div id = 'baseBox'></div> -->
+  </div>
+  <!-- <script src='//kefu.easemob.com/webim/easemob.js?configId=de10b7f6-92ba-495c-93c1-a4e78b82eadd'></script> -->
+  <!-- <script src='//kefu.easemob.com/webim/easemob.js?configId=d07c7d7f-1407-4d0f-9026-d70d51fbdd12'></script> -->
+  <!-- built files will be auto injected -->
+  <script type="text/javascript">
+    function reload() {
+      window.location.reload()
+    }
+  </script>
+</body>
+
+</html>
